@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inicio.unity
     guid: 4f9fc6f4bab376d4f8951464e68250a4
+  - enabled: 1
+    path: Assets/Scenes/NoAcess.unity
+    guid: 01602a6f22e9e414887e3a3864af6e5b
+  - enabled: 1
+    path: Assets/Scenes/SoyNuevo.unity
+    guid: 0bc8871ea69a06243af9c40217899f0d
+  - enabled: 1
+    path: Assets/Scenes/TengoCuenta.unity
+    guid: 177c3bd0def2915428adb31466655473
   m_configObjects: {}

@@ -13,8 +13,8 @@ public class LogIn : MonoBehaviour
     public GameObject WarningMessageObject;
 
     [Header("Textos de Entrada")]
-    public InputField PasswordInputField;
-    public InputField EmailInputField;
+    public InputField ContrasenaInputField;
+    public InputField UsuarioInputField;
 
 
 
@@ -27,12 +27,12 @@ public class LogIn : MonoBehaviour
 
     public void LoginButtonOnClick()
     {
-        if (testemail == EmailInputField.text)
+        if (testemail == UsuarioInputField.text)
         {
-            if(password == PasswordInputField.text)
+            if(password == ContrasenaInputField.text)
             {
                 Debug.Log("Inicio de sesión exitosa");
-                SceneManager.LoadScene("PantallaInicio");
+                SceneManager.LoadScene("Registro");
                 return;
             }
         }
@@ -48,5 +48,10 @@ public class LogIn : MonoBehaviour
        public void LogOutOnClick()
     {
         SceneManager.LoadScene("NoAccess");
+    }
+
+    public void IntentaDeNuevoOnClick()
+    {
+        SceneManager.LoadScene("TengoCuenta");
     }
 }
