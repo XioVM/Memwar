@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea6735eb03fe3a74783788f964a1ae66
+guid: d343e502bc5a47e4e8ab2cd57f5eaf7d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,8 +9,10 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Neufreit
-  fallbackFontReferences: []
+  - Montserrat
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 72904de52d9d8db45bd3fab44023476d, type: 3}
+  - {fileID: 12800000, guid: 012ad80d001e902419d239856f9bea0d, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
