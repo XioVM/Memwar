@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MemoramaManager : AppObject
 {
@@ -148,4 +149,9 @@ public class MemoramaManager : AppObject
         _card.SetCardInteraction(true);
         _card.GetComponent<Animator>().SetTrigger("Clicked");
     }
+
+    //cambios ale
+    
+  
 }
+
