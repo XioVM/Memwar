@@ -32,7 +32,7 @@ public class LogIn : MonoBehaviour
             if(password == ContrasenaInputField.text)
             {
                 Debug.Log("Inicio de sesión exitosa");
-                SceneManager.LoadScene("Registro");
+                SceneManager.LoadScene("PantallaInicio");
                 return;
             }
         }

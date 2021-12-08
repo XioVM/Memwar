@@ -14,7 +14,7 @@ public class PantallaIncio : MonoBehaviour
 
     public void AreaJuegoSolitario()
     {
-        SceneManager.LoadScene("escenaPrueva");
+        SceneManager.LoadScene("JuegoSolitario");
     }
 
     public void AreaJuegoAmigos()

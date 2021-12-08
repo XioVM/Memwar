@@ -8,7 +8,7 @@ public class BotonCrearCuenta : MonoBehaviour
 {
     public void BotonCrearCuentaOnClick()
     {
-        SceneManager.LoadScene("Registro");
+        SceneManager.LoadScene("PantallaInicio");
     }
 
     //agregue el script en el boton, ese script lo arrastre a buttononclick, agregue el registroonclick. File, Build Settings y agregar las escenas donde estas y donde quieres ir. 
