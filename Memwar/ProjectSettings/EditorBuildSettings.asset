@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/JuegoSolitario.unity
+    guid: b9f931bffd782994790687fbcefa92c6
+  - enabled: 1
+    path: Assets/Scenes/MemoramaExample.unity
+    guid: 314ddd86c28601c43952bb0898393040
   m_configObjects: {}
