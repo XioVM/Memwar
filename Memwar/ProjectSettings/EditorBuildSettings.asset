@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MemoramaExample.unity
     guid: 314ddd86c28601c43952bb0898393040
+  - enabled: 1
+    path: Assets/Scenes/MenuOptions.unity
+    guid: 5f592085fbf3979408a7a1cfb729703f
   m_configObjects: {}
