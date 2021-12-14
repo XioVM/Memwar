@@ -22,6 +22,11 @@ public class NavbarButtons : MonoBehaviour
         MenuPanel.SetActive(false);
     }
 
+    public void ButtonRegresar_Inicio()
+    {
+        SceneManager.LoadScene("PantallaInicio");
+    }
+
     // Update is called once per frame
     void Update()
     {

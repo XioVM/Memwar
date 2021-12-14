@@ -21,11 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/TengoCuenta.unity
     guid: 177c3bd0def2915428adb31466655473
   - enabled: 1
+    path: Assets/Scenes/PantallaInicio.unity
+    guid: 1321ea582c03097429750222a6553af1
+  - enabled: 1
     path: Assets/Scenes/JuegoSolitario.unity
     guid: b9f931bffd782994790687fbcefa92c6
   - enabled: 1
-    path: Assets/Scenes/PantallaInicio.unity
-    guid: 1321ea582c03097429750222a6553af1
+    path: Assets/Scenes/JuegoRandom.unity
+    guid: 8260bf4e05c90b54793ff5d1962e7c56
+  - enabled: 1
+    path: Assets/Scenes/JuegocAmigos.unity
+    guid: 4d45eda656c52554e9d3ea632597ed29
   - enabled: 1
     path: Assets/Scenes/MemoramaExample.unity
     guid: 314ddd86c28601c43952bb0898393040
