@@ -19,11 +19,11 @@ public class PantallaIncio : MonoBehaviour
 
     public void AreaJuegoAmigos()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("JuegocAmigos");
     }
 
     public void AreaJuegoRamdom()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("JuegoRandom");
     }
 }
