@@ -5,16 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class NavbarButtons : MonoBehaviour
 {
-
+    public GameObject MenuPanel;
     // Start is called before the first frame update
     void Start()
     {
 
     }
 
-    public void MenuScene()
+    public void OpenMenu()
     {
-        SceneManager.LoadScene("MenuOptions");
+        MenuPanel.SetActive(true);
+    }
+
+    public void CloseMenu()
+    {
+        MenuPanel.SetActive(false);
     }
 
     // Update is called once per frame
